@@ -1,0 +1,81 @@
+CRITICAL - 2022-07-14 11:55:26 --> Invalid file: {0}
+#0 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Sap/index.php')
+#1 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('Sap/index', Array, true)
+#2 C:\xampp\htdocs\vanding_machines\app\Controllers\Sap.php(25): view('Sap/index', Array)
+#3 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Sap->index()
+#4 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sap))
+#5 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vanding_machines\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 11:55:44 --> Invalid file: {0}
+#0 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Sap/index.php')
+#1 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('Sap/index', Array, true)
+#2 C:\xampp\htdocs\vanding_machines\app\Controllers\Sap.php(25): view('Sap/index', Array)
+#3 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Sap->index()
+#4 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sap))
+#5 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vanding_machines\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 12:11:40 --> Class 'App\Controllers\Sap_model' not found
+#0 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Vanding->index()
+#1 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vanding))
+#2 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vanding_machines\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-14 12:11:52 --> Class 'App\Models\Vanding_model' not found
+#0 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Vanding->index()
+#1 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vanding))
+#2 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\vanding_machines\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-14 12:17:20 --> syntax error, unexpected '}', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(861): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(388): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\vanding_machines\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-14 14:33:07 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\vanding_machines\app\Views\vanding\indexs.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('vanding/indexs', Array, true)
+#3 C:\xampp\htdocs\vanding_machines\app\Controllers\Vanding.php(24): view('vanding/indexs', Array)
+#4 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Vanding->indexs()
+#5 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vanding))
+#6 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\vanding_machines\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-14 14:33:32 --> Table 'pt_sap.food' doesn't exist
+#0 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\vanding_machines\app\Models\Vanding_model.php(13): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\vanding_machines\app\Controllers\Vanding.php(22): App\Models\Vanding_model->getFood()
+#7 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Vanding->indexs()
+#8 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vanding))
+#9 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\vanding_machines\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-07-14 14:48:10 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('vanding/indexs', Array, true)
+#2 C:\xampp\htdocs\vanding_machines\app\Controllers\Vanding.php(24): view('vanding/indexs', Array)
+#3 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Vanding->indexs()
+#4 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vanding))
+#5 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vanding_machines\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-14 14:48:57 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('vanding/indexs', Array, true)
+#2 C:\xampp\htdocs\vanding_machines\app\Controllers\Vanding.php(24): view('vanding/indexs', Array)
+#3 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Vanding->indexs()
+#4 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vanding))
+#5 C:\xampp\htdocs\vanding_machines\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\vanding_machines\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}

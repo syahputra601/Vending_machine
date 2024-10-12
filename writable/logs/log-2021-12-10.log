@@ -1,0 +1,10 @@
+CRITICAL - 2021-12-10 00:17:59 --> Class '\CodeIgniter\Database\PDO\Connection' not found
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\Config.php(115): CodeIgniter\Database\Database->load(Array, 'db3')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(234): CodeIgniter\Database\Config::connect('db3', true)
+#2 C:\xampp\htdocs\cro4\app\Models\M_login.php(45): db_connect('db3')
+#3 C:\xampp\htdocs\cro4\app\Controllers\C_login.php(39): App\Models\M_login->cek_login_v2('aji', 'SSM1234')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_login->aksilogin()
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}

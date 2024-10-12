@@ -1,0 +1,41 @@
+CRITICAL - 2022-06-25 06:40:14 --> Table 'db_cro.barang' doesn't exist
+#0 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pt_sap\app\Models\Barang_model.php(12): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\pt_sap\app\Controllers\Sap.php(13): App\Models\Barang_model->getBarang()
+#7 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Sap->index()
+#8 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sap))
+#9 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pt_sap\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-25 06:48:32 --> Table 'pt_sap.barang' doesn't exist
+#0 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\pt_sap\app\Models\Barang_model.php(12): CodeIgniter\Model->findAll()
+#6 C:\xampp\htdocs\pt_sap\app\Controllers\Sap.php(13): App\Models\Barang_model->getBarang()
+#7 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Sap->index()
+#8 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sap))
+#9 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\pt_sap\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-25 07:17:20 --> Call to a member function getRow() on null
+#0 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Sap->hapus('2')
+#1 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sap))
+#2 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pt_sap\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-25 07:43:52 --> Call to a member function getNota() on null
+#0 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\Sap->preview_rpt_nota()
+#1 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sap))
+#2 C:\xampp\htdocs\pt_sap\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pt_sap\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-25 08:37:46 --> Maximum execution time of 500 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

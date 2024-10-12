@@ -1,0 +1,1189 @@
+CRITICAL - 2021-12-20 00:13:40 --> Cannot call constructor
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(882): App\Controllers\C_cro->__construct()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(393): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 00:22:02 --> Cannot redeclare App\Controllers\C_cro::home()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-20 00:22:31 --> Invalid file: {0}
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('loading_page.ph...')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('loading_page', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(27): view('loading_page')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->loading_page()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:23:00 --> Invalid file: {0}
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('loading_page.ph...')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('loading_page', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(27): view('loading_page')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->loading_page()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:23:03 --> Call to a member function userdata() on null
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(35): view('index', Array)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->home()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:23:30 --> Invalid file: {0}
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(224): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('loading_page.ph...')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('loading_page', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(27): view('loading_page')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->loading_page()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:25:04 --> Call to a member function userdata() on null
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(35): view('index', Array)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->home()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:26:10 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(35): view('index', Array)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->home()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:27:28 --> Call to a member function get() on null
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(35): view('index', Array)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->home()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:28:56 --> Call to a member function segment() on null
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(37): view('index', Array)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->home()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:32:12 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(37): view('index', Array)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->home()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:33:24 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(37): view('index', Array)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->home()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:34:38 --> Call to a member function view() on null
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(37): view('index', Array)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->home()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 00:37:25 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('home', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Views\index.php(248): view('home')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(37): view('index', Array)
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->home()
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-20 00:46:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(42): App\Models\M_cro->getMasterQuest()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewquest()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 00:48:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getResult()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(42): App\Models\M_cro->getMasterQuest()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewquest()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 00:48:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getResultArray()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(42): App\Models\M_cro->getMasterQuest()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewquest()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 00:48:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getResult()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(42): App\Models\M_cro->getMasterQuest()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewquest()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 00:48:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getResultArray()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(42): App\Models\M_cro->getMasterQuest()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewquest()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 00:49:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getResult()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(42): App\Models\M_cro->getMasterQuest()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewquest()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 00:49:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getResult()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(42): App\Models\M_cro->getMasterQuest()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewquest()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 00:50:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(42): App\Models\M_cro->getMasterQuest()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewquest()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 00:52:13 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(42): App\Models\M_cro->getMasterQuest()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewquest()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 00:59:06 --> Call to undefined method CodeIgniter\Session\Session::userdata()
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('v_laporanbulana...', Array, true)
+#2 C:\xampp\htdocs\cro4\app\Views\index.php(248): view('v_laporanbulana...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(65): view('index', Array)
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewlaporanbulanan()
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-20 01:17:22 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(99): redirect('refresh://local...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:18:01 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(99): redirect('refresh://local...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:18:59 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(99): redirect('C_cro/viewlapor...', 'refresh')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:19:48 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(99): redirect('http://localhos...', 'refresh')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:20:08 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(99): redirect('http://localhos...', 'refresh')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:20:35 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(99): redirect('http://localhos...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:22:16 --> Call to undefined method App\Controllers\C_cro::redirect()
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 01:24:21 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(182): redirect('C_cro/viewsurve...', 'refresh')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:25:24 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(182): redirect('C_cro/viewsurve...', 'refresh')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:29:18 --> Call to undefined method App\Controllers\C_cro::redirect()
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 01:29:40 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(99): redirect('http://localhos...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:31:35 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(100): redirect('App\\Controllers...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:31:57 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(100): redirect('App\\Controllers...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:32:27 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(184): redirect('C_cro/viewsurve...', 'refresh')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:35:23 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(185): redirect('C_cro/viewsurve...', 'refresh')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:39:28 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(185): redirect('C_cro/viewsurve...', 'refresh')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:41:59 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(188): redirect('C_cro/viewsurve...', 'refresh')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 01:44:32 --> pg_pconnect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;192.168.50.2&quot; and accepting
+	TCP/IP connections on port 5432?
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_pconnect(): ...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(98): pg_pconnect('user=ssm passwo...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\Postgre\Connection->connect(true)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\xampp\htdocs\cro4\app\Models\M_cro.php(52): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws(NULL, NULL)
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#9 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-20 01:44:47 --> pg_query(): Query failed: ERROR:  relation &quot;pr_rpt_sales_bbn&quot; does not exist
+LINE 2: FROM &quot;pr_rpt_sales_bbn&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 194, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(194): pg_query(Resource id #119, 'SELECT "id", "n...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\xampp\htdocs\cro4\app\Models\M_cro.php(52): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#9 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-20 01:45:44 --> Call to undefined method CodeIgniter\Database\Postgre\Builder::getresult()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:46:24 --> pg_pconnect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;192.168.50.2&quot; and accepting
+	TCP/IP connections on port 5432?
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_pconnect(): ...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(98): pg_pconnect('user=ssm passwo...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\Postgre\Connection->connect(true)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\xampp\htdocs\cro4\app\Models\M_cro.php(52): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#9 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-20 01:46:37 --> pg_query(): Query failed: ERROR:  relation &quot;pr_rpt_sales_bbn&quot; does not exist
+LINE 2: FROM &quot;pr_rpt_sales_bbn&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 194, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(194): pg_query(Resource id #119, 'SELECT "id", "n...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "id", "n...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "id", "n...')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT "id", "n...', Array, false)
+#5 C:\xampp\htdocs\cro4\app\Models\M_cro.php(52): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#9 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-20 01:47:34 --> Object of class CodeIgniter\Database\Postgre\Connection could not be converted to string
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:47:42 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:47:54 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:49:04 --> syntax error, unexpected ''id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_cr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_cr...')
+#3 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(80): spl_autoload_call('App\\Models\\M_cr...')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-20 01:49:23 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_cr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_cr...')
+#3 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(80): spl_autoload_call('App\\Models\\M_cr...')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-20 01:49:46 --> syntax error, unexpected 'id' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_cr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_cr...')
+#3 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(80): spl_autoload_call('App\\Models\\M_cr...')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-20 01:50:33 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::join()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:53:54 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:54:14 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 01:56:10 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:06:03 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::select()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:06:19 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in C:\xampp\htdocs\cro4\app\Models\M_cro.php on line 42
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query(Array)
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:07:06 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 02:07:28 --> pg_pconnect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;192.168.50.2&quot; and accepting
+	TCP/IP connections on port 5432?
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_pconnect(): ...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(98): pg_pconnect('user=ssm passwo...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\Postgre\Connection->connect(true)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#5 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-20 02:09:42 --> pg_pconnect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;192.168.50.2&quot; and accepting
+	TCP/IP connections on port 5432?
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_pconnect(): ...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(98): pg_pconnect('user=ssm passwo...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\Postgre\Connection->connect(true)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#5 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-20 02:09:42 --> Class 'customer.telepon_2' not found
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:10:27 --> pg_pconnect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;192.168.50.2&quot; and accepting
+	TCP/IP connections on port 5432?
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_pconnect(): ...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(98): pg_pconnect('user=ssm passwo...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\Postgre\Connection->connect(true)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#5 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-20 02:10:34 --> Class 'customer.telepon_2' not found
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:11:28 --> pg_pconnect(): Unable to connect to PostgreSQL server: could not connect to server: Connection timed out (0x0000274C/10060)
+	Is the server running on host &quot;192.168.50.2&quot; and accepting
+	TCP/IP connections on port 5432?
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_pconnect(): ...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(98): pg_pconnect('user=ssm passwo...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\Postgre\Connection->connect(true)
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#4 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#5 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-20 02:11:33 --> Class 'customer.telepon_2' not found
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:12:18 --> Class 'customer.telepon_2' not found
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:12:45 --> Argument 1 passed to CodeIgniter\Database\BaseConnection::query() must be of the type string, array given, called in C:\xampp\htdocs\cro4\app\Models\M_cro.php on line 42
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query(Array)
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:13:04 --> Class 'customer.telepon_2' not found
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:13:33 --> Class 'customer.telepon_2' not found
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:18:32 --> Class 'customer.telepon_2' not found
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:18:51 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::join()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:19:12 --> syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\M_cr...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\M_cr...')
+#3 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(80): spl_autoload_call('App\\Models\\M_cr...')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-20 02:19:23 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::join()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:24:00 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::join()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:24:12 --> Class 'customer.telepon_2' not found
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(42): CodeIgniter\Database\BaseConnection->query('id', 'nama_customer', true, 'customer.telepo...', 'customer.hp', 'type', 'tgl_invoice', 'warna', 'diskon', 'rpt_sales_bbn.i...')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:32:22 --> Call to undefined method CodeIgniter\Database\Postgre\Connection::getResult()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:33:02 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 02:33:14 --> pg_query(): Query failed: ERROR:  relation &quot;pr_pj_sinv&quot; does not exist
+LINE 2: FROM &quot;pr_pj_sinv&quot;
+             ^
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'pg_query(): Que...', 'C:\\xampp\\htdocs...', 194, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\Postgre\Connection.php(194): pg_query(Resource id #117, 'SELECT "pr_cust...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\Postgre\Connection->execute('SELECT "pr_cust...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT "pr_cust...')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1819): CodeIgniter\Database\BaseConnection->query('SELECT "pr_cust...', Array, false)
+#5 C:\xampp\htdocs\cro4\app\Models\M_cro.php(77): CodeIgniter\Database\BaseBuilder->get()
+#6 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(111): App\Models\M_cro->get_custmonthservkws('11', '2021')
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#9 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-20 02:44:28 --> Unable to connect to the database.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\cro4\app\Models\M_cro.php(46): CodeIgniter\Database\BaseConnection->query('SELECT id, nama...')
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(110): App\Models\M_cro->get_custmonthslskws('11', '2021')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 02:48:20 --> Call to a member function add_custslskws() on null
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 02:51:05 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(188): redirect('C_cro/viewsurve...', 'refresh')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->getcustmonth()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 02:56:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\cro4\app\Views\v_survey_new.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('v_survey_new', Array, true)
+#3 C:\xampp\htdocs\cro4\app\Views\index.php(248): view('v_survey_new')
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#6 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(266): view('index', Array)
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewsurveys()
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#9 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2021-12-20 02:57:10 --> syntax error, unexpected '@'
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('v_survey_new', Array, true)
+#1 C:\xampp\htdocs\cro4\app\Views\index.php(248): view('v_survey_new')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(266): view('index', Array)
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewsurveys()
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 02:57:20 --> syntax error, unexpected '@'
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('v_survey_new', Array, true)
+#1 C:\xampp\htdocs\cro4\app\Views\index.php(248): view('v_survey_new')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(266): view('index', Array)
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewsurveys()
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 02:57:22 --> syntax error, unexpected '@'
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('v_survey_new', Array, true)
+#1 C:\xampp\htdocs\cro4\app\Views\index.php(248): view('v_survey_new')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\View\View.php(236): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(266): view('index', Array)
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewsurveys()
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 03:07:55 --> Call to a member function sess_destroy() on null
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_login->logout()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 03:08:47 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_login.php(129): redirect('http://localhos...')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_login->logout()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 03:09:12 --> {0, string} route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\HTTP\RedirectResponse.php(92): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(798): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\cro4\app\Controllers\C_login.php(129): redirect('C_login')
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_login->logout()
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_login))
+#5 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-20 20:53:38 --> Call to a member function query() on null
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(259): App\Models\M_cro->get_allarea()
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewsurveys()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 21:56:05 --> syntax error, unexpected '(', expecting variable (T_VARIABLE) or '{' or '$'
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Common.php(1071): CodeIgniter\View\View->render('index', Array, true)
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(267): view('index', Array)
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->viewsurveys()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 21:59:11 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(239): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:02:56 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(239): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:07:24 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(239): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:09:03 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(239): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:09:24 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(239): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:10:00 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(241): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:11:43 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(242): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:11:57 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(242): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:13:30 --> Call to a member function getResultArray() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(242): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:13:39 --> Call to a member function getResultArray() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(242): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:13:42 --> Call to a member function getResultArray() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(242): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:13:53 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(242): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:14:02 --> Call to a member function getResultObject() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(242): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:14:07 --> Call to a member function getResult() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(242): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:16:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'GROUP BY a.nama_cust, a.type, a.tgl_inv, a.tipe_cust' at line 1
+#0 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(330): mysqli->query(' GROUP BY a.nam...')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute(' GROUP BY a.nam...')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery(' GROUP BY a.nam...')
+#3 C:\xampp\htdocs\cro4\app\Models\M_cro.php(196): CodeIgniter\Database\BaseConnection->query(' GROUP BY a.nam...')
+#4 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#5 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#6 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#7 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#8 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-20 22:17:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:19:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:19:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::last_query()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:19:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::last_query()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:21:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:22:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:22:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::order_by()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:23:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:26:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:27:03 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:27:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:28:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:28:50 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:28:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:29:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::order_by()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:29:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:31:39 --> Call to a member function orderBy() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:31:48 --> Call to a member function orderBy() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:32:55 --> Call to a member function orderBy() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:33:50 --> Call to a member function orderBy() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:41:55 --> Call to a member function orderBy() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:45:01 --> Call to a member function orderBy() on string
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:45:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:46:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:47:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::order_by()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:47:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::orderBy()
+#0 C:\xampp\htdocs\cro4\app\Models\M_cro.php(243): App\Models\M_cro->_get_datatables_query('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#4 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 22:48:12 --> Call to a member function limit() on null
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 22:48:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::limit()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 22:48:58 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 22:49:17 --> Call to a member function getResult() on null
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 22:50:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::getResult()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(280): App\Models\M_cro->get_datatables('', '', '', '', '2021', '12')
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 22:57:06 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 22:57:26 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\cro4\app\Controllers\C_cro.php(289): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 289, Array)
+#1 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(910): App\Controllers\C_cro->get_data_survey()
+#2 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(398): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\C_cro))
+#3 C:\xampp\htdocs\cro4\vendor\codeigniter4\framework\system\CodeIgniter.php(306): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cro4\index.php(46): CodeIgniter\CodeIgniter->run()
+#5 {main}
